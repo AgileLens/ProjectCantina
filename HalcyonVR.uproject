@@ -3,13 +3,7 @@
 	"EngineAssociation": "{4BD366B7-E54B-B09D-9B2F-54B59F3E5F26}",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "HalcyonVR",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
+
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
