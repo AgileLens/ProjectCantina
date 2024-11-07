@@ -3,13 +3,7 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "HalcyonVR",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
+
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -81,7 +75,7 @@
 		},
 		{
 			"Name": "ConvAI",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/696326c90d80462b8775712d2b6cc2a7"
 		},
 		{
