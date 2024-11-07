@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "{4BD366B7-E54B-B09D-9B2F-54B59F3E5F26}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -64,7 +64,7 @@
 		},
 		{
 			"Name": "OculusXR",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
 			"SupportedTargetPlatforms": [
 				"Win64",
@@ -81,7 +81,7 @@
 		},
 		{
 			"Name": "ConvAI",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/696326c90d80462b8775712d2b6cc2a7"
 		},
 		{
@@ -158,6 +158,13 @@
 				"Android",
 				"VisionOS"
 			]
+		},
+		{
+			"Name": "OpenXRVisionOS",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"VisionOS"
+			]
 		}
 	],
 	"TargetPlatforms": [
@@ -172,6 +179,7 @@
 		"Switch",
 		"XboxOne",
 		"XSX",
-		"HoloLens"
+		"HoloLens",
+		"VisionOS"
 	]
 }
